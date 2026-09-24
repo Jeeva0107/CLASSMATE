@@ -1,0 +1,128 @@
+[
+  {
+    "timestamp": "18:26:17",
+    "date": "2026-09-24",
+    "event": "QUESTION",
+    "message": "What is supervised learning?",
+    "priority": "P1",
+    "alert": "SPECIFIC_ALERT",
+    "source": "demo_speech"
+  },
+  {
+    "timestamp": "15:15:55",
+    "date": "2026-09-24",
+    "event": "ANNOUNCEMENT",
+    "message": "Assignment Deadline is tomorrow.",
+    "priority": "P2",
+    "alert": "SHORT_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:15:44",
+    "date": "2026-09-24",
+    "event": "NORMAL_LECTURE",
+    "message": "No active speech detected.",
+    "priority": "P3",
+    "alert": "NO_DISRUPTIVE_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:15:31",
+    "date": "2026-09-24",
+    "event": "ANNOUNCEMENT",
+    "message": "Inman Deadline is tomorrow.",
+    "priority": "P2",
+    "alert": "SHORT_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:15:22",
+    "date": "2026-09-24",
+    "event": "ANNOUNCEMENT",
+    "message": "This is tomorrow.",
+    "priority": "P2",
+    "alert": "SHORT_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:15:15",
+    "date": "2026-09-24",
+    "event": "QUESTION",
+    "message": "Ifana, how are you?",
+    "priority": "P1",
+    "alert": "SPECIFIC_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:15:05",
+    "date": "2026-09-24",
+    "event": "QUESTION",
+    "message": "Hello Jima! What are you doing?",
+    "priority": "P1",
+    "alert": "SPECIFIC_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:11:52",
+    "date": "2026-09-24",
+    "event": "NORMAL_LECTURE",
+    "message": "I'm sorry. I'm sorry. I'm sorry.",
+    "priority": "P3",
+    "alert": "NO_DISRUPTIVE_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:11:34",
+    "date": "2026-09-24",
+    "event": "QUESTION",
+    "message": "Thanks for watching, all right?",
+    "priority": "P1",
+    "alert": "SPECIFIC_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:11:00",
+    "date": "2026-09-24",
+    "event": "NORMAL_LECTURE",
+    "message": "It's time to come to the board.",
+    "priority": "P3",
+    "alert": "NO_DISRUPTIVE_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:10:47",
+    "date": "2026-09-24",
+    "event": "NORMAL_LECTURE",
+    "message": "Elis Ringing.",
+    "priority": "P3",
+    "alert": "NO_DISRUPTIVE_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:10:36",
+    "date": "2026-09-24",
+    "event": "NORMAL_LECTURE",
+    "message": "It's bad.",
+    "priority": "P3",
+    "alert": "NO_DISRUPTIVE_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:10:16",
+    "date": "2026-09-24",
+    "event": "ANNOUNCEMENT",
+    "message": "A side deadline is tomorrow",
+    "priority": "P2",
+    "alert": "SHORT_ALERT",
+    "source": "microphone"
+  },
+  {
+    "timestamp": "15:10:00",
+    "date": "2026-09-24",
+    "event": "QUESTION",
+    "message": "Oh, Jiva, can you come to the board?",
+    "priority": "P1",
+    "alert": "SPECIFIC_ALERT",
+    "source": "microphone"
+  }
+]
