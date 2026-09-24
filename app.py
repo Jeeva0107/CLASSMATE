@@ -1,6 +1,18 @@
 import os
 import sys
-import streamlit as st
+from http.server import BaseHTTPRequestHandler
+
+# Vercel Serverless Function entrypoint exports
+class handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+        self.wfile.write(b"<h1>CLASSMATE AI Classroom Companion</h1>")
+        return
+
+app = handler
+application = handler
 
 # Ensure project root is in python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -12,6 +24,7 @@ from sound_classifier.sound_classifier import SoundClassifier
 from hardware.arduino_controller import ArduinoController
 from event_log.event_logger import EventLogger
 from demo.demo_scenarios import DemoRunner
+import streamlit as st
 
 # Page Config
 st.set_page_config(
